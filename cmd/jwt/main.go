@@ -13,8 +13,8 @@ const (
 )
 
 type Header struct {
-   Algorism `json:"alg"`
-   TokenType `json:"typ"`
+	Algorism  `json:"alg"`
+	TokenType `json:"typ"`
 }
 
 func main() {
